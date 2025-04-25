@@ -13,7 +13,7 @@ const Projects = () => {
                 if(window.innerWidth >= 1024){
                     setCardsToShow(projectsData.length);
                 }else{
-                    setCardsToShow(1)
+                    setCardsToShow(0.9)
                 };
             }
                 updateCardsToShow();
